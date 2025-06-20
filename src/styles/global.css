@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* custom breakpoint */
+  --breakpoint-mobile1: 390px;
+  --breakpoint-mobile2: 490px;
+  --breakpoint-tablet1: 767px;
+  --breakpoint-tablet2: 980px;
+  --breakpoint-window1: 1200px;
+  --breakpoint-window2: 1440px;
+
+  /* font family */
+  --font-archivo: "Archivo", sans-serif;
+
+  /* color */
+  --color-cyan1: #61BED8;
+  --color-cyan2: #389FBB;
+  --color-black: #0A0F14;
+  --color-blue1: #314971;
+  --color-blue2: #4B6797;
+  --color-blue3: #415EC6;
+  --color-gray1: #5A6A7A;
+  --color-gray2: #93979B;
+  --color-gray3: #D8E2EB;
+  --color-orange: #EE5B00;
+  --color-cloud-grey: #ECF0F5;
+  --color-mist-blue: #DCE9FF;
+  --color-dark-blue: #1D2E39;
+  --color-dark-green: #00B34A;
+  --color-light-green: #02D258;
+}
