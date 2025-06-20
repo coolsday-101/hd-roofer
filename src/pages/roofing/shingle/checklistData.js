@@ -13,10 +13,8 @@ const benefits = [
   "Year-round installation possible",
   <>
     Backed by{" "}
-    <span className="text-orange font-bold">
       40–50 year manufacturer warranties and a 10-year transferable workmanship
       warranty
-    </span>
   </>,
   "Available in a wide range of styles and colours to match your home",
 ];

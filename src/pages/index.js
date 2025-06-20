@@ -51,11 +51,11 @@ const features = [
   },
   {
     title: "Fast Repairs & Upgrades",
-    imageSrc: RepairImage,
+    imageSrc: QuoteImage,
   },
   {
     title: "FREE Quotes Within 48 Hours",
-    imageSrc: QuoteImage,
+    imageSrc: RepairImage,
   },
 ];
 
@@ -141,10 +141,10 @@ const IndexPage = () => {
 // You'll learn about this in the next task, just copy it for now
 export const Head = () => (
   <>
-    <title>Top Roofing Experts in Nova Scotia | NS Roofer</title>
+    <title>Top Roofing Experts in Calgary | HD Roofer</title>
     <meta
       name="description"
-      content="Trusted local roofing company serving Nova Scotia with affordable installations, solar-ready upgrades, and fast repairs. Get a FREE quote in 48 hours. Quality guaranteed with long-term warranties."
+      content="Trusted local roofing company serving Calgary with affordable installations, solar-ready upgrades, and fast repairs. Get a FREE quote in 48 hours. Quality guaranteed with long-term warranties."
     />
   </>
 );

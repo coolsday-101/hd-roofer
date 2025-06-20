@@ -8,7 +8,7 @@ export const ContactInfoSection = () => {
         alt="Background"
         className="object-cover absolute inset-0 size-full"
       />
-      <h1 className="relative text-5xl font-bold text-cyan1 max-md:max-w-full max-md:text-4xl">
+      <h1 className="relative text-5xl font-bold text-dark-green max-md:max-w-full max-md:text-4xl">
         Get a Quote
       </h1>
       <p className="relative mt-6 text-lg font-semibold max-md:max-w-full">

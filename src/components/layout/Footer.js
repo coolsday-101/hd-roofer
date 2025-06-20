@@ -7,7 +7,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-blue1 px-16 py-12 text-white -z-0">
+    <footer className="w-full bg-dark-blue px-16 py-12 text-white -z-0">
       <div className="flex justify-between max-md:flex-col max-md:gap-8">
         {/* Logo and Social Media Section */}
         <div className="flex flex-col gap-8 mr-8">
@@ -124,7 +124,7 @@ export default function Footer() {
             <a href="mailto:sales@nsroofer.com" className="hover:text-dark-green">
               sales@nsroofer.com
             </a>
-            <p>Unit 1, 30 Rosno Lane, Bedford, NS B4B 1J7</p>
+            <p>Unit 108, 2880 45th Ave SE, Calgary, T2B 3M1</p>
             <div className="flex flex-col">
               <a href="tel:9024480428" className="hover:text-dark-green">
                 (902) 448-0428
@@ -140,7 +140,7 @@ export default function Footer() {
             {/* Replace with actual map implementation */}
             <div className="max-w-fit overflow-hidden flex items-center justify-center">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2034.7874533495292!2d-63.719804518061224!3d44.713562197570695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b598bd2d063f0bf%3A0x31ab389cb80ff1ec!2s30%20Rosno%20Ln%20%231%2C%20Bedford%2C%20NS%20B4B%201J7!5e0!3m2!1sen!2sca!4v1746916330720!5m2!1sen!2sca"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5020.173693375658!2d-113.9963486508179!3d51.0145443971732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717a6032a20cb9%3A0x394751073a40f115!2s2880 45 Ave SE %23108%2C Calgary%2C AB T2B 3M1!5e0!3m2!1sen!2sca!4v1750451940259!5m2!1sen!2sca"
                 width="400"
                 height="300"
                 style={{ border: 0, position: "relative" }}

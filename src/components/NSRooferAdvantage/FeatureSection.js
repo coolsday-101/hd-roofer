@@ -13,11 +13,11 @@ export const FeatureSection = ({
           alt="icon"
           className="object-contain shrink-0 self-stretch my-auto w-5 aspect-square"
         />
-        <h3 className="self-stretch my-auto text-dark-blue">
+        <h3 className="self-stretch my-auto text-white">
           {title}
         </h3>
       </header>
-      <p className="mt-1 leading-6 text-dark-blue max-md:max-w-full max-w-[550px]">
+      <p className="mt-1 leading-6 text-white max-md:max-w-full max-w-[550px]">
         {description}
       </p>
     </article>

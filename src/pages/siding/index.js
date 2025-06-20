@@ -65,7 +65,7 @@ const leftColumnFeatures = [
       CubeImage,
     title: "Quality Materials",
     description:
-      <>Partnered with top suppliers to ensure durable, <span className="text-orange font-bold">Canadian local</span> high-quality siding options.</>,
+      <>Partnered with top suppliers to ensure durable, <span className="text-dark-green font-bold">Canadian local</span> high-quality siding options.</>,
   },
 ];
 
@@ -117,10 +117,10 @@ const IndexPage = () => {
 // You'll learn about this in the next task, just copy it for now
 export const Head = () => (
   <>
-    <title>Siding Installation in Halifax | NS Roofer</title>
+    <title>Siding Installation in Calgary | HD Roofer</title>
     <meta
       name="description"
-      content="Upgrade your home with durable siding solutions in Halifax. NS Roofer offers vinyl and metal siding, fascia, soffits, and eavestroughs—backed by a double lifetime warranty and expert local service. Get a free estimate today."
+      content="Upgrade your home with durable siding solutions in Calgary. HD Roofer offers vinyl and metal siding, fascia, soffits, and eavestroughs—backed by a double lifetime warranty and expert local service. Get a free estimate today."
     />
   </>
 );

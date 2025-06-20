@@ -57,7 +57,7 @@ const roofDescription = () => {
   return (
     <>
       <p className="text-gray1">
-        At <span className="text-orange font-bold">NS Roofer</span>, we
+        At <span className="text-dark-green font-bold">NS Roofer</span>, we
         understand how important it is to take care of roof issues early—whether
         it’s a small leak, missing shingles, or signs of storm damage. Even
         minor problems can lead to major repairs if left untreated, which is why
@@ -68,7 +68,7 @@ const roofDescription = () => {
         Our experienced team will assess your roof’s condition and recommend the
         most effective, budget-friendly repair solution. We work with all major
         roofing systems, including{" "}
-        <span className="text-orange font-bold">
+        <span className="text-dark-green font-bold">
           asphalt shingles, metal roofing, and flat roofs
         </span>
         , and we always aim to extend the life of your roof whenever possible.
@@ -102,7 +102,7 @@ const IndexPage = () => {
           <>
             Not sure if your roof needs a repair or a full replacement? Contact
             us today to schedule a{" "}
-            <span className="text-orange font-bold">free roof inspection</span>.
+            free roof inspection.
             We'll walk you through your options and help you make the right
             choice—without pressure.
           </>
@@ -116,10 +116,10 @@ const IndexPage = () => {
 // You'll learn about this in the next task, just copy it for now
 export const Head = () => (
   <>
-    <title>Roof Repair Services in Halifax | NS Roofer</title>
+    <title>Roof Repair Services in Calgary | HD Roofer</title>
     <meta
       name="description"
-      content="Need roof repairs in Halifax? NS Roofer offers fast, affordable fixes for leaks, missing shingles, storm damage, and more. Free inspections and clear quotes—contact us today."
+      content="Need roof repairs in Calgary? HD Roofer offers fast, affordable fixes for leaks, missing shingles, storm damage, and more. Free inspections and clear quotes—contact us today."
     />
   </>
 );

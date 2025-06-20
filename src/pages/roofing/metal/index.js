@@ -20,7 +20,7 @@ const roofDescription = () => {
     <p className="text-gray1">
       Wondering if a metal roof is right for your home? While the initial cost
       may be higher than asphalt or flat roofing systems, a{" "}
-      <span className="text-orange font-bold">
+      <span className="text-dark-green font-bold">
         metal roof is an investment that pays off over time
       </span>
       —in durability, energy efficiency, and long-term value. At NS Roofer, we
@@ -37,7 +37,7 @@ const teamDescription = () => {
       Unlike other materials, metal doesn’t crack, warp, rot, or attract mold.
       The panels we use are coated with zinc and aluminum before being painted,
       offering{" "}
-      <span className="text-orange font-bold">
+      <span className="text-black font-bold">
         maximum corrosion resistance
       </span>{" "}
       and longevity—ideal for Nova Scotia’s coastal climate.
@@ -76,7 +76,7 @@ const MetalRoofPage = () => {
             Whether you’re replacing an aging roof or building a new home, NS
             Roofer is here to help you explore the possibilities of metal
             roofing. Contact us today for a{" "}
-            <span className="text-orange font-bold">free consultation</span>,
+            <span className="text-blue3 font-bold">free consultation</span>,
             and discover why more Halifax homeowners are making the switch to
             metal with confidence.
           </>
@@ -95,10 +95,10 @@ const MetalRoofPage = () => {
 
 export const Head = () => (
   <>
-    <title>Shingle, Metal & Flat Roof Experts in Halifax | NS Roofer</title>
+    <title>Shingle, Metal & Flat Roof Experts in Calgary | HD Roofer</title>
     <meta
       name="description"
-      content="NS Roofer offers expert roofing services in Halifax, including shingle, metal, and flat roof installations. Get durable, energy-efficient, and long-lasting solutions with free consultations."
+      content="HD Roofer offers expert roofing services in Calgary, including shingle, metal, and flat roof installations. Get durable, energy-efficient, and long-lasting solutions with free consultations."
     />
   </>
 );

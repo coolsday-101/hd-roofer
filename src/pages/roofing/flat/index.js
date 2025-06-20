@@ -39,13 +39,13 @@ const teamDescription = () => {
     <>
       <p className="text-gray1">
         At NS Roofer, we offer{" "}
-        <span className="text-orange font-bold">
+        <span className="text-dark-green font-bold">
           custom flat roofing systems
         </span>{" "}
         backed by a range of warranties based on the number of layers installed.
         If you’re planning to add a deck or patio above your flat roof, we
         typically recommend a
-        <span className="text-orange font-bold">minimum 2-ply system</span> for
+        <span className="text-dark-green font-bold">minimum 2-ply system</span> for
         added strength and durability.
       </p>
       <p className="text-gray1">
@@ -85,7 +85,7 @@ const FlatRoofPage = () => {
           <>
             Flat roofing opens up endless possibilities—from modern green roof
             systems to stylish rooftop decks. Contact NS Roofer today to{" "}
-            <span className="text-orange font-bold">
+            <span className="text-dark-green font-bold">
               schedule your free consultation
             </span>
             , and let’s explore how to make your flat roof work smarter for your
@@ -100,10 +100,10 @@ const FlatRoofPage = () => {
 
 export const Head = () => (
   <>
-    <title>Shingle, Metal & Flat Roof Experts in Halifax | NS Roofer</title>
+    <title>Shingle, Metal & Flat Roof Experts in Calgary | HD Roofer</title>
     <meta
       name="description"
-      content="NS Roofer offers expert roofing services in Halifax, including shingle, metal, and flat roof installations. Get durable, energy-efficient, and long-lasting solutions with free consultations."
+      content="HD Roofer offers expert roofing services in Calgary, including shingle, metal, and flat roof installations. Get durable, energy-efficient, and long-lasting solutions with free consultations."
     />
   </>
 );

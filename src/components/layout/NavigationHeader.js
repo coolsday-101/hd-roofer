@@ -22,7 +22,7 @@ export default function NavigationHeader() {
   }, []);*/
 
   return (
-    <nav className="relative flex justify-between items-center px-16 py-2 bg-blue1 max-md:px-8 max-md:py-2 max-sm:px-4 max-sm:py-2">
+    <nav className="relative flex justify-between items-center px-16 py-2 bg-dark-blue max-md:px-8 max-md:py-2 max-sm:px-4 max-sm:py-2">
       <Link href="/"><StaticImage
         src={"../../images/logo/hd-roofer-logo.avif"}
         alt="HD Roofer Logo"
@@ -60,12 +60,12 @@ export default function NavigationHeader() {
             <>
               {" "}
               <div
-                className="absolute h-[20px] w-[94px] bg-blue1 z-100"
+                className="absolute h-[20px] w-[94px] bg-dark-blue z-100"
                 onMouseEnter={() => setDropdownOpen(true)}
                 onMouseLeave={() => setDropdownOpen(false)}
               ></div>
               <div
-                className="absolute top-full left-0 mt-4 w-fit bg-blue1 shadow-lg z-10"
+                className="absolute top-full left-0 mt-4 w-fit bg-dark-blue shadow-lg z-10"
                 onMouseEnter={() => setDropdownOpen(true)}
                 onMouseLeave={() => setDropdownOpen(false)}
               >
@@ -124,7 +124,7 @@ export default function NavigationHeader() {
               e.stopPropagation();
             }}
           ></div>
-          <div className="fixed font-archivo top-0 right-0 w-64 h-full bg-blue1 shadow-lg z-30 p-4">
+          <div className="fixed font-archivo top-0 right-0 w-64 h-full bg-dark-blue shadow-lg z-30 p-4">
             <button
               className="max-sm:block cursor-pointer absolute right-0 mr-4"
               onClick={() => setDrawerOpen(false)}

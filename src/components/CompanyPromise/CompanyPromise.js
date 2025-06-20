@@ -11,7 +11,7 @@ export const CompanyPromise = () => {
       />
       <div className="flex relative flex-col justify-center max-w-full w-[1280px] mx-auto">
         <div className="flex flex-col justify-center w-full max-md:max-w-full">
-          <h2 className="flex-1 shrink gap-2 w-full text-3xl font-semibold text-blue-400 basis-0 max-md:max-w-full">
+          <h2 className="flex-1 shrink gap-2 w-full text-3xl font-semibold text-dark-green basis-0 max-md:max-w-full">
             Our Promise to You
           </h2>
           <div className="mt-4 text-sm leading-6 text-white max-md:max-w-full">

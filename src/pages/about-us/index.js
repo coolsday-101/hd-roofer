@@ -61,29 +61,29 @@ const roofDescription = () => {
   return (
     <>
       <p className="text-gray1">
-        At <span className="text-orange font-bold">NS Roofer</span>, we take
+        At <span className="text-dark-green font-bold">NS Roofer</span>, we take
         pride in delivering reliable, high-quality roofing services across
         Halifax and surrounding areas. Whether you need a{" "}
-        <span className="text-orange font-bold">full roof replacement</span>,
-        timely <span className="text-orange font-bold">repairs</span>, or
-        improved <span className="text-orange font-bold">attic insulation</span>
+        <span className="text-dark-green font-bold">full roof replacement</span>,
+        timely <span className="text-dark-green font-bold">repairs</span>, or
+        improved <span className="text-dark-green font-bold">attic insulation</span>
         , our experienced team is here to protect your home with expert
         craftsmanship and trusted materials.
       </p>
       <p className="text-gray1">
         We are a{" "}
-        <span className="text-orange font-bold">
+        <span className="text-dark-green font-bold">
           GAF-certified roofing contractor
         </span>
         , our work has been recognized in multiple{" "}
-        <span className="text-orange font-bold">
+        <span className="text-dark-green font-bold">
           government-funded projects
         </span>
         , and we’re proud to be known for our professionalism and consistent{" "}
-        <span className="text-orange font-bold">5-star customer reviews</span>.
+        <span className="text-dark-green font-bold">5-star customer reviews</span>.
         As a fully insured and certified company, we put safety and
         accountability first. NS Roofer is a proud member of{" "}
-        <span className="text-orange font-bold">Safety Nova Scotia</span>, and
+        <span className="text-dark-green font-bold">Safety Nova Scotia</span>, and
         all of our team members are trained to deliver safe, clean, and
         efficient work on every project.
       </p>
@@ -117,10 +117,10 @@ const IndexPage = () => {
 // You'll learn about this in the next task, just copy it for now
 export const Head = () => (
   <>
-    <title>Certified Roofing Experts in Halifax | NS Roofer</title>
+    <title>Certified Roofing Experts in Calgary | HD Roofer</title>
     <meta
       name="description"
-      content="Learn about NS Roofer—GAF-certified, fully insured roofing professionals serving Halifax and beyond. Trusted for quality, safety, and 5-star service in residential and government projects."
+      content="Learn about HD Roofer—GAF-certified, fully insured roofing professionals serving Calgary and beyond. Trusted for quality, safety, and 5-star service in residential and government projects."
     />
   </>
 );

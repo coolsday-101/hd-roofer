@@ -30,7 +30,7 @@ const roofDescription = () => {
         delaying repairs or replacement can lead to serious and costly damage.
         That's why choosing the right roofing contractor in Halifax matters. At
         NS Roofer, we specialize in
-        <span className="text-orange font-bold">
+        <span className="text-dark-green font-bold">
           {" "}
           asphalt shingled and sloped roofs
         </span>
@@ -98,7 +98,7 @@ const ShingleRoofPage = () => {
       <Checklist
         title="Benefits of Asphalt Shingled Roofs"
         content={checklistData()}
-        className="bg-cloud-grey text-black"
+        className="bg-dark-blue text-white"
       />
       <DescriptionImage
         title="Meet Our Team"
@@ -118,10 +118,10 @@ const ShingleRoofPage = () => {
 
 export const Head = () => (
   <>
-    <title>Shingle, Metal & Flat Roof Experts in Halifax | NS Roofer</title>
+    <title>Shingle, Metal & Flat Roof Experts in Calgary | HD Roofer</title>
     <meta
       name="description"
-      content="NS Roofer offers expert roofing services in Halifax, including shingle, metal, and flat roof installations. Get durable, energy-efficient, and long-lasting solutions with free consultations."
+      content="HD Roofer offers expert roofing services in Calgary, including shingle, metal, and flat roof installations. Get durable, energy-efficient, and long-lasting solutions with free consultations."
     />
   </>
 );

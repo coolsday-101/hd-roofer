@@ -9,6 +9,7 @@ import InsulationSection from "../../components/InsulationSection/InsulationSect
 import NSRooferAdvantage from "../../components/NSRooferAdvantage/NSRooferAdvantage";
 import ServicesYouCanTrust from "../../components/ServicesYouCanTrust/ServicesYouCanTrust";
 import RecentProjects from "../../components/RecentProjects/RecentProjects";
+
 import ExternalImage from "./images/price-match.svg";
 import SolarImage from "./images/warranty.svg";
 import RepairImage from "./images/material.svg";
@@ -172,10 +173,10 @@ const IndexPage = () => {
 // You'll learn about this in the next task, just copy it for now
 export const Head = () => (
   <>
-    <title>Home Insulation Services in Halifax | NS Roofer</title>
+    <title>Home Insulation Services in Calgary | HD Roofer </title>
     <meta
       name="description"
-      content="Improve comfort and cut energy bills with expert insulation services in Halifax. NS Roofer offers blow-in, wall, and batt insulation with a price match guarantee and no hidden fees. Book your free consultation today."
+      content="Improve comfort and cut energy bills with expert insulation services in Calgary. HD Roofer offers blow-in, wall, and battery insulation with a price match guarantee and no hidden fees. Book your free consultation today."
     />
   </>
 );

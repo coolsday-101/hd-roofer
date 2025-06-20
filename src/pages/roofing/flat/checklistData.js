@@ -4,42 +4,42 @@ import CheckmarkIcon from "./icons/pepicons-pencil_checkmark-filled.svg";
 const benefits = [
   <>
     Additional{" "}
-    <span className="text-orange font-bold">
+    <span className="text-dark-green font-bold">
       insulation can be added above the roof
     </span>{" "}
     for better energy efficiency
   </>,
   <>
     Flat roofs allow for{" "}
-    <span className="text-orange font-bold">deck or entertainment space</span>{" "}
+    <span className="text-dark-green font-bold">deck or entertainment space</span>{" "}
     installations
   </>,
   <>
     Certain designs can be framed and expanded into{" "}
-    <span className="text-orange font-bold">usable living areas</span>
+    <span className="text-dark-green font-bold">usable living areas</span>
   </>,
   <>
     Ideal for structures with{" "}
-    <span className="text-orange font-bold">low or no slope</span>
+    <span className="text-dark-green font-bold">low or no slope</span>
   </>,
   <>
-    <span className="text-orange font-bold">Green roof systems</span> can be
+    <span className="text-dark-green font-bold">Green roof systems</span> can be
     added for rainwater control and a maintenance-free finish
   </>,
   <>
-    <span className="text-orange font-bold">Skylights</span> on flat roofs bring
+    <span className="text-dark-green font-bold">Skylights</span> on flat roofs bring
     natural light into your home all day
   </>,
   <>
     Flat roofing materials are{" "}
-    <span className="text-orange font-bold">durable and walkable</span>
+    <span className="text-dark-green font-bold">durable and walkable</span>
   </>,
   <>
     Flat roofs often require{" "}
-    <span className="text-orange font-bold">little to no ventilation</span>
+    <span className="text-dark-green font-bold">little to no ventilation</span>
   </>,
   <>
-    <span className="text-orange font-bold">Continuous insulation</span> on top
+    <span className="text-dark-green font-bold">Continuous insulation</span> on top
     eliminates heat loss through wood framing gaps
   </>,
 ];
