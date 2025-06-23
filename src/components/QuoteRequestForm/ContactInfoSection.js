@@ -16,7 +16,7 @@ export const ContactInfoSection = () => {
       </p>
       <address className="relative mt-6 w-full text-sm leading-loose max-md:max-w-full not-italic">
         <p className="max-md:max-w-full">
-          Unit 1, 30 Rosno Lane, Bedford, NS B4B 1J7
+          Unit 108, 2880 45th Ave SE, Calgary, T2B 3M1
         </p>
         <p className="mt-2 max-md:max-w-full">
           <a href="mailto:sales@nsroofer.com" target="_blank" rel="noopener noreferrer">

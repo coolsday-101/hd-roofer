@@ -109,7 +109,7 @@ const IndexPage = () => {
       />
       <RoofingServices
         title="From new installs to upgrades, siding and insulation—all your roofing needs are covered in one place."
-        description="Proudly serving Nova Scotia with top-tier quality and speedy services you can count on."
+        description="Proudly serving Calgary with top-tier quality and speedy services you can count on."
         content={features}
         gridCol="4"
       />

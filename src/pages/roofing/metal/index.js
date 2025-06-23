@@ -23,8 +23,8 @@ const roofDescription = () => {
       <span className="text-dark-green font-bold">
         metal roof is an investment that pays off over time
       </span>
-      —in durability, energy efficiency, and long-term value. At NS Roofer, we
-      help homeowners across Halifax make confident, informed roofing decisions
+      —in durability, energy efficiency, and long-term value. At HD Roofer, we
+      help homeowners across Calgary make confident, informed roofing decisions
       that last for decades.
     </p>
   );
@@ -33,14 +33,14 @@ const roofDescription = () => {
 const teamDescription = () => {
   return (
     <p className="text-gray1">
-      Metal roofing has become increasingly popular in Halifax for good reason.
+      Metal roofing has become increasingly popular in Calgary for good reason.
       Unlike other materials, metal doesn’t crack, warp, rot, or attract mold.
       The panels we use are coated with zinc and aluminum before being painted,
       offering{" "}
       <span className="text-black font-bold">
         maximum corrosion resistance
       </span>{" "}
-      and longevity—ideal for Nova Scotia’s coastal climate.
+      and longevity—ideal for Calgary’s coastal climate.
     </p>
   );
 };
@@ -73,11 +73,11 @@ const MetalRoofPage = () => {
         title="Book a Free Consultation"
         description={
           <>
-            Whether you’re replacing an aging roof or building a new home, NS
+            Whether you’re replacing an aging roof or building a new home, HD
             Roofer is here to help you explore the possibilities of metal
             roofing. Contact us today for a{" "}
             <span className="text-blue3 font-bold">free consultation</span>,
-            and discover why more Halifax homeowners are making the switch to
+            and discover why more Calgary homeowners are making the switch to
             metal with confidence.
           </>
         }

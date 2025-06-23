@@ -23,7 +23,7 @@ import data from "../../components/ProjectCarousel/data/data";
 import HouseIcon from "./icons/f7_house-fill.svg";
 import TeamIcon from "./icons/fluent_people-team-24-filled.svg";
 import StarIcon from "./icons/ic_outline-star.svg";
-import MaterialIcon from "./icons/material-symbols_person-pin.svg";
+//import MaterialIcon from "./icons/material-symbols_person-pin.svg";
 import SearchIcon from "./icons/mingcute_search-fill.svg";
 import MoneyIcon from "./icons/solar_money-bag-bold.svg";
 
@@ -44,10 +44,6 @@ const topServices = [
 
 const bottomServices = [
   {
-    icon: MaterialIcon,
-    text: "Safety Nova Scotia member",
-  },
-  {
     icon: StarIcon,
     text: "5-star reviews from satisfied customers",
   },
@@ -61,9 +57,9 @@ const roofDescription = () => {
   return (
     <>
       <p className="text-gray1">
-        At <span className="text-dark-green font-bold">NS Roofer</span>, we take
+        At <span className="text-dark-green font-bold">HD Roofer</span>, we take
         pride in delivering reliable, high-quality roofing services across
-        Halifax and surrounding areas. Whether you need a{" "}
+        Calgary and surrounding areas. Whether you need a{" "}
         <span className="text-dark-green font-bold">full roof replacement</span>,
         timely <span className="text-dark-green font-bold">repairs</span>, or
         improved <span className="text-dark-green font-bold">attic insulation</span>
@@ -82,9 +78,8 @@ const roofDescription = () => {
         , and we’re proud to be known for our professionalism and consistent{" "}
         <span className="text-dark-green font-bold">5-star customer reviews</span>.
         As a fully insured and certified company, we put safety and
-        accountability first. NS Roofer is a proud member of{" "}
-        <span className="text-dark-green font-bold">Safety Nova Scotia</span>, and
-        all of our team members are trained to deliver safe, clean, and
+        accountability first.
+        All of our team members are trained to deliver safe, clean, and
         efficient work on every project.
       </p>
       <p className="text-gray1">
@@ -103,7 +98,7 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
       <HeroSection title="About Us" imageName="about-hero.png" />
       <DescriptionImage
-        title="Trusted Roofing Experts Serving Halifax and Beyond"
+        title="Trusted Roofing Experts Serving Calgary and Beyond"
         description={roofDescription()}
         image={DescImage}
         className="flex-row-reverse"

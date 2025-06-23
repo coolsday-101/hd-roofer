@@ -57,12 +57,12 @@ const roofDescription = () => {
   return (
     <>
       <p className="text-gray1">
-        At <span className="text-dark-green font-bold">NS Roofer</span>, we
+        At <span className="text-dark-green font-bold">HD Roofer</span>, we
         understand how important it is to take care of roof issues early—whether
         it’s a small leak, missing shingles, or signs of storm damage. Even
         minor problems can lead to major repairs if left untreated, which is why
         we’re here to help with prompt, reliable roof repair services across
-        Halifax and surrounding areas.
+        Calgary and surrounding areas.
       </p>
       <p className="text-gray1">
         Our experienced team will assess your roof’s condition and recommend the
@@ -83,10 +83,10 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
       <HeroSection
         title="Repair"
-        description="Reliable, Professional Roof Repairs in Halifax"
+        description="Reliable, Professional Roof Repairs in Calgary"
       />
       <DescriptionImage
-        title="Reliable, Professional Roof Repairs in Halifax"
+        title="Reliable, Professional Roof Repairs in Calgary"
         description={roofDescription()}
         image={DescImage}
         className="flex-row-reverse"

@@ -88,7 +88,7 @@ const servicesData = [
   {
     title: "Tax Incentives",
     description:
-      "In Nova Scotia, adding insulation qualifies for government rebates or tax credits, offsetting installation costs.",
+      "In Calgary, adding insulation qualifies for government rebates or tax credits, offsetting installation costs.",
     imageUrl: annualImage,
   },
 ];
@@ -150,7 +150,7 @@ const IndexPage = () => {
         imageName="insulation-hero.png"
       />
       <RoofingServices
-        title="Why Choose NS Roofer Insulation?"
+        title="Why Choose HD Roofer Insulation?"
         content={features}
         gridCol="3"
       />
@@ -161,7 +161,7 @@ const IndexPage = () => {
         cta={false}
       />
       <NSRooferAdvantage
-        title="NS Roofer Advantage"
+        title="HD Roofer Advantage"
         leftContent={leftColumnFeatures}
         rightContent={rightColumnFeatures}
       />

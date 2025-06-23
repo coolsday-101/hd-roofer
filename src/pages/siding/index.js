@@ -82,7 +82,7 @@ const rightColumnFeatures = [
       WomanImage,
     title: "Local Expertise",
     description:
-      "We understand Nova Scotia’s climate and recommend the best siding solutions for lasting protection.",
+      "We understand Calgary’s climate and recommend the best siding solutions for lasting protection.",
   },
 ];
 
@@ -96,11 +96,11 @@ const IndexPage = () => {
         imageName="siding-hero.png"
       />
       <RoofingServices
-        title="Why Choose NS Roofer Siding?"
+        title="Why Choose HD Roofer Siding?"
         content={features}
         gridCol="3"
       />
-      <NSRooferAdvantage title="NS Roofer Advantage" leftContent={leftColumnFeatures} rightContent={rightColumnFeatures} />
+      <NSRooferAdvantage title="HD Roofer Advantage" leftContent={leftColumnFeatures} rightContent={rightColumnFeatures} />
       <section className="flex flex-col justify-center p-16 max-md:py-9 w-full min-h-[606px] max-md:px-5 max-md:max-w-full">
         <div className="w-full min-h-[478px] max-md:max-w-full max-w-[1280px] mx-auto">
           <h1 className="w-full text-3xl font-semibold text-center text-gray-950 max-md:max-w-full">

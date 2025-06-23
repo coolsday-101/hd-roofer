@@ -28,8 +28,8 @@ const roofDescription = () => {
         Many homeowners don't think about their roof—until it's too late. Your
         roof is one of the most important parts of your home's structure, and
         delaying repairs or replacement can lead to serious and costly damage.
-        That's why choosing the right roofing contractor in Halifax matters. At
-        NS Roofer, we specialize in
+        That's why choosing the right roofing contractor in Calgary matters. At
+        HD Roofer, we specialize in
         <span className="text-dark-green font-bold">
           {" "}
           asphalt shingled and sloped roofs
@@ -108,7 +108,7 @@ const ShingleRoofPage = () => {
       />
       <RecentProjects
         title="Ready to Talk Roofing?"
-        description="Book a free consultation with NS Roofer today. Our team is here to educate you on your options and guide you to the right roofing solution before you make a decision. Your home deserves the best—let’s get started."
+        description="Book a free consultation with HD Roofer today. Our team is here to educate you on your options and guide you to the right roofing solution before you make a decision. Your home deserves the best—let’s get started."
         data={recentProjectData}
       />
       <LogoBanner logos={logos} className="bg-white" />

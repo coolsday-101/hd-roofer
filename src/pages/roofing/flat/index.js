@@ -16,9 +16,9 @@ import FlatHeroImage from "./images/flat-hero.png";
 const roofDescription = () => {
   return (
     <>
-      <p className="text-gray1">Custom Flat Roofing for Halifax Homes.</p>
+      <p className="text-gray1">Custom Flat Roofing for Calgary Homes.</p>
       <p className="text-gray1">
-        At NS Roofer, we specialize in flat roofing systems built for Halifax’s
+        At HD Roofer, we specialize in flat roofing systems built for Calgary’s
         unique climate. Whether you want better energy efficiency, more usable
         space, or long-term protection, we offer a range of customizable options
         to match your needs.
@@ -38,7 +38,7 @@ const teamDescription = () => {
   return (
     <>
       <p className="text-gray1">
-        At NS Roofer, we offer{" "}
+        At HD Roofer, we offer{" "}
         <span className="text-dark-green font-bold">
           custom flat roofing systems
         </span>{" "}
@@ -84,7 +84,7 @@ const FlatRoofPage = () => {
         content={
           <>
             Flat roofing opens up endless possibilities—from modern green roof
-            systems to stylish rooftop decks. Contact NS Roofer today to{" "}
+            systems to stylish rooftop decks. Contact HD Roofer today to{" "}
             <span className="text-dark-green font-bold">
               schedule your free consultation
             </span>
