@@ -10,7 +10,7 @@ import LogoBanner from "../components/LogoBanner/LogoBanner";
 import BringSolarToLife from "../components/ProjectCarousel/BringSolarToLife";
 import data from "../components/ProjectCarousel/data/data";
 
-import EPPLogo from "./logo/EPP.png";
+//import EPPLogo from "./logo/EPP.png";
 import kentLogo from "./logo/kent.jpg";
 import logoLogo from "./logo/logo.png";
 import OIPLogo from "./logo/OIP.jpg";
@@ -31,7 +31,6 @@ import solarImage from "./images/solar.png";
 import annualImage from "./images/annual.png";
 
 const logos = [
-  { src: EPPLogo, className: "h-[96px] md:h-[48px]" },
   { src: kentLogo, className: "h-[96px] md:h-[48px]" },
   { src: logoLogo, className: "h-[96px] md:h-[48px]" },
   { src: OIPLogo, className: "h-[96px] mobile2:h-[100px]" },

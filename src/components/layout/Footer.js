@@ -121,8 +121,8 @@ export default function Footer() {
           {/* Contact Info Column */}
           <div className="flex flex-col gap-4">
             <h3 className="font-bold text-lg">Contact Us</h3>
-            <a href="mailto:sales@nsroofer.com" className="hover:text-dark-green">
-              sales@nsroofer.com
+            <a href="mailto:sales@hdroofer.ca" className="hover:text-dark-green">
+              sales@hdroofer.ca
             </a>
             <p>Unit 108, 2880 45th Ave SE, Calgary, T2B 3M1</p>
             <div className="flex flex-col">

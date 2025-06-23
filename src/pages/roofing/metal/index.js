@@ -40,7 +40,7 @@ const teamDescription = () => {
       <span className="text-black font-bold">
         maximum corrosion resistance
       </span>{" "}
-      and longevity—ideal for Calgary’s coastal climate.
+      and longevity—ideal for Calgary’s climate.
     </p>
   );
 };
@@ -64,7 +64,7 @@ const MetalRoofPage = () => {
         className="bg-white"
       />
       <DescriptionImage
-        title="Built to Withstand Halifax Weather"
+        title="Built to Withstand Calgary Weather"
         description={teamDescription()}
         image={MetalRoof5113Image}
         className="flex-row-reverse bg-cloud-grey"

@@ -19,8 +19,8 @@ export const ContactInfoSection = () => {
           Unit 108, 2880 45th Ave SE, Calgary, T2B 3M1
         </p>
         <p className="mt-2 max-md:max-w-full">
-          <a href="mailto:sales@nsroofer.com" target="_blank" rel="noopener noreferrer">
-            sales@nsroofer.com
+          <a href="mailto:sales@hdroofer.ca" target="_blank" rel="noopener noreferrer">
+            sales@hdroofer.ca
           </a>
         </p>
         <p className="mt-2 max-md:max-w-full">
