@@ -24,7 +24,7 @@ export default function NavigationHeader() {
   return (
     <nav className="relative flex justify-between items-center px-16 py-2 bg-dark-blue max-md:px-8 max-md:py-2 max-sm:px-4 max-sm:py-2">
       <Link href="/"><StaticImage
-        src={"../../images/logo/hd-roofer-logo.avif"}
+        src={"../../images/logo/hd-roofer-logo.png"}
         alt="HD Roofer Logo"
         layout="fixed"
         width={100}

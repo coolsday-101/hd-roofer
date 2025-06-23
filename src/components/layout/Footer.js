@@ -12,7 +12,7 @@ export default function Footer() {
         {/* Logo and Social Media Section */}
         <div className="flex flex-col gap-8 mr-8">
           <StaticImage
-            src="../../images/logo/hd-roofer-logo.avif"
+            src="../../images/logo/hd-roofer-logo.png"
             alt="HD Roofer Logo"
             layout="fixed"
             width={200}
