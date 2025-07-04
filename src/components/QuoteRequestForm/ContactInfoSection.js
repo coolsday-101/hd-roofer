@@ -24,7 +24,7 @@ export const ContactInfoSection = () => {
           </a>
         </p>
         <p className="mt-2 max-md:max-w-full">
-          (647) 953-5014 | (902) 448-0428
+          (647) 953-5046
         </p>
       </address>
     </section>

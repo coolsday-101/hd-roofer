@@ -18,32 +18,6 @@ export default function Footer() {
             width={200}
             height={50}
           />
-          <div className="flex gap-4">
-            <a
-              href="https://www.facebook.com/nsroofer"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <StaticImage
-                src="../../images/social/fb.svg"
-                alt="Facebook"
-                width={24}
-                height={24}
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/nsroofer/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <StaticImage
-                src="../../images/social/ig.svg"
-                alt="Instagram"
-                width={24}
-                height={24}
-              />
-            </a>
-          </div>
         </div>
 
         {/* Navigation Links Section */}
@@ -126,11 +100,8 @@ export default function Footer() {
             </a>
             <p>Unit 108, 2880 45th Ave SE, Calgary, T2B 3M1</p>
             <div className="flex flex-col">
-              <a href="tel:9024480428" className="hover:text-dark-green">
-                (902) 448-0428
-              </a>
-              <a href="tel:6479530514" className="hover:text-dark-green">
-                (647) 953-5014
+              <a href="tel:6479535046" className="hover:text-dark-green">
+                (647) 953-5046
               </a>
             </div>
           </div>

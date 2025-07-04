@@ -4,11 +4,15 @@ import Layout from "../components/layout/layout";
 //import { StaticImage } from "gatsby-plugin-image";
 //import image from "../images/test.png";
 import HeroSection from "../components/HeroSection/HeroSection";
+import DescriptionImage from "../components/DescriptionImage/DescriptionImage";
+import Checklist from "../components/Checklist/Checklist";
 import RoofingServices from "../components/RoofingServices/RoofingServices";
 import ServicesYouCanTrust from "../components/ServicesYouCanTrust/ServicesYouCanTrust";
 import LogoBanner from "../components/LogoBanner/LogoBanner";
 import BringSolarToLife from "../components/ProjectCarousel/BringSolarToLife";
 import data from "../components/ProjectCarousel/data/data";
+
+import checklistData from "./checklistData";
 
 //import EPPLogo from "./logo/EPP.png";
 import kentLogo from "./logo/kent.jpg";
@@ -22,6 +26,7 @@ import ExternalImage from "../components/RoofingServices/images/foundation_torso
 import SolarImage from "../components/RoofingServices/images/ph_solar-panel-fill.svg";
 import RepairImage from "../components/RoofingServices/images/ri_contract-fill.svg";
 import QuoteImage from "../components/RoofingServices/images/uiw_setting.svg";
+import HomeImage from "./images/long-shot-man-working-roof.avif";
 
 import workmanshipImage from "./images/workmanship.png";
 import fourtyEightHourImage from "./images/48-hour.png";
@@ -45,15 +50,15 @@ const features = [
     imageSrc: ExternalImage,
   },
   {
-    title: "Solar-Ready Roofing Solutions",
+    title: "Roofing, Siding, Eavestroughs, Windows & Doors",
     imageSrc: SolarImage,
   },
   {
-    title: "Fast Repairs & Upgrades",
+    title: "Attic Insulation Top-ups with Energy Rebates",
     imageSrc: QuoteImage,
   },
   {
-    title: "FREE Quotes Within 48 Hours",
+    title: "FREE, Clear & Written Quotes Within 48 Hours",
     imageSrc: RepairImage,
   },
 ];
@@ -97,20 +102,52 @@ const servicesData = [
   },
 ];
 
+const homeDescription = () => {
+  return (
+    <>
+      <p className="text-gray1">
+        <span className="text-dark-green font-bold">
+          Fast, code-compliant repairs when hail, wind or ice hit your home.
+        </span>{" "}
+        We’re locally licensed, bonded and insured, and every job meets—or
+        exceeds—the Alberta Building Code (2019) and{" "}
+        <a href="http://calgary.ca" className="text-blue-500 underline">
+          City of Calgary
+        </a>{" "}
+        permit rules. Routine “like-for-like” roof or siding replacements
+        usually don’t need a permit, but if you’re upgrading materials we’ll
+        pull the paperwork for you and book the inspections for a hassle-free
+        rebuild.
+      </p>
+    </>
+  );
+};
+
 // Step 2: Define your component
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
       <HeroSection
-        title="One-Stop Roofing Experts"
+        title="The One-Stop Exterior Team"
         description="Affordable. Reliable. Local."
         imageName="home-hero.png"
       />
       <RoofingServices
-        title="From new installs to upgrades, siding and insulation—all your roofing needs are covered in one place."
-        description="Proudly serving Calgary with top-tier quality and speedy services you can count on."
+        title="For comprehensive roofing solutions, we cover new installations, repairs, upgrades for siding, roofs, gutters, trim, insulation, and more—all in one place."
+        description="Delivering a seamless, curb-appeal-boosting finish at a down-to-earth price."
         content={features}
         gridCol="4"
+      />
+      <DescriptionImage
+        title="24/7 Storm-Damage & Siding Rescue"
+        description={homeDescription()}
+        image={HomeImage}
+        className="bg-cloud-grey"
+      />
+      <Checklist
+        title="Why Homeowners Call Us First After a Storm"
+        content={checklistData()}
+        className="text-black"
       />
       <ServicesYouCanTrust
         title="Roofing Made Simple. Services You Can Trust."
@@ -119,12 +156,8 @@ const IndexPage = () => {
             <p className="text-lg font-semibold text-gray-950">
               Call Us Today:
             </p>
-            <a href="tel:(902) 448-0428" className="text-lg text-indigo-700">
-              (902) 448-0428
-            </a>
-            <span className="text-lg text-slate-200">|</span>
-            <a href="tel:(902) 448-0428" className="text-lg text-indigo-700">
-              (647) 953-5014
+            <a href="tel:(647) 953-5046" className="text-lg text-indigo-700">
+              (647) 953-5046
             </a>
           </>
         }
