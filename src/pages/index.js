@@ -16,8 +16,6 @@ import checklistData from "./checklistData";
 
 //import EPPLogo from "./logo/EPP.png";
 import kentLogo from "./logo/kent.jpg";
-import logoLogo from "./logo/logo.png";
-import OIPLogo from "./logo/OIP.jpg";
 import picture2Logo from "./logo/Picture2.png";
 import picture3Logo from "./logo/Picture3.png";
 import rLogo from "./logo/R.png";
@@ -37,8 +35,6 @@ import annualImage from "./images/annual.png";
 
 const logos = [
   { src: kentLogo, className: "h-[96px] md:h-[48px]" },
-  { src: logoLogo, className: "h-[96px] md:h-[48px]" },
-  { src: OIPLogo, className: "h-[96px] mobile2:h-[100px]" },
   { src: picture2Logo, className: "h-[96px] md:h-[48px]" },
   { src: picture3Logo, className: "h-[96px] md:h-[48px]" },
   { src: rLogo, className: "h-[96px] md:h-[48px]" },
